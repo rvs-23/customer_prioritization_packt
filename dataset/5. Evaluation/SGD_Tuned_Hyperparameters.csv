@@ -1,0 +1,5 @@
+model,best hyperparameters
+SGD feature_set_1 StdScaled,"{'alpha': 1e-05, 'class_weight': 'balanced', 'penalty': 'l1'}"
+SGD feature_set_3 StdScaled,"{'alpha': 1e-05, 'class_weight': 'balanced', 'penalty': 'l1'}"
+SGD feature_set_4 StdScaled,"{'alpha': 1e-05, 'class_weight': 'balanced', 'penalty': 'l1'}"
+SGD feature_set_5 StdScaled,"{'alpha': 0.01, 'class_weight': 'balanced', 'penalty': 'l2'}"

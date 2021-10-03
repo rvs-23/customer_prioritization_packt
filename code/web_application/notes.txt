@@ -1,0 +1,7 @@
+1. Contains the base_data_ops file, the 4 
+modules used for deployment, the joblib
+model file and web_app_flask script.
+
+2. Contains sample prediction reports. templates
+folder contains the HTML files needed for
+web app creation.

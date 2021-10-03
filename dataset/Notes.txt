@@ -1,0 +1,18 @@
+1. Raw data contains the 6 datasets provided for analysis.
+
+2. Final prepared base data contains the c and t tables 
+merged and consolidated (this file isn't the final). It 
+contains base_data_3m file which is obtained by merging
+and consolidating all the 6 datasets. The dev_3m and ops_3m
+files are two parts of the consolidated dataset for training 
+and testing.
+
+3. Final data processed contains the outlier removed
+version (which is not the final dataset). The outlier 
+removed dataset was resampled and we obtained base_data_resampled_tomek 
+file. Resampling was also done for base_data_ops_3m file and is stored
+here.
+
+4. Evaluation folder contains the model_scores obtained after running
+various experiments. It also contains the tuned Hyperparameters values
+for Stochastic Gradient Descent.

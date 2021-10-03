@@ -1,0 +1,48 @@
+model_name,feature_count,Balanced_Accuracy_test,Recall_test,Balanced_Accuracy_train,Recall_train,Fit_time,Score_time
+GB feature_set_1,7,0.988,0.998,0.989,0.999,11.573,0.071
+GB feature_set_1 StdScale,7,0.988,0.998,0.989,0.999,11.753,0.064
+GB feature_set_1 MaxAbs,7,0.988,0.998,0.989,0.999,12.348,0.064
+RF all features,13,0.986,0.994,0.996,0.999,8.9,0.364
+RF feature_set_1,7,0.986,0.994,0.996,0.999,8.276,0.354
+GB feature_set_4 StdScale,6,0.986,0.999,0.986,1.0,8.204,0.06
+GB feature_set_4 MaxAbs,6,0.986,0.999,0.986,1.0,8.378,0.062
+GB feature_set_3 StdScale,8,0.986,0.999,0.986,0.999,9.226,0.061
+GB feature_set_3 MaxAbs,8,0.986,0.999,0.986,0.999,9.086,0.06
+SGD feature_set_1,7,0.984,0.995,0.985,0.995,0.242,0.049
+RF feature_set_3 StdScale,8,0.984,0.994,0.991,0.999,6.579,0.317
+RF feature_set_3 MaxAbs,8,0.984,0.994,0.991,0.999,6.593,0.323
+RF feature_set_4 MaxAbs,6,0.984,0.994,0.991,0.999,6.66,0.316
+RF feature_set_4 StdScale,6,0.984,0.994,0.991,0.999,6.506,0.316
+SGD all features,13,0.982,0.988,0.982,0.988,0.277,0.039
+LR all features,13,0.963,0.943,0.962,0.942,24.904,0.035
+LR feature_set_1,7,0.962,0.942,0.962,0.941,4.234,0.048
+SGD feature_set_1 StdScale,7,0.949,0.915,0.95,0.916,0.33,0.038
+SGD feature_set_3 StdScale,8,0.949,0.914,0.949,0.915,0.412,0.038
+SGD feature_set_4 StdScale,6,0.948,0.914,0.948,0.914,0.329,0.037
+LR feature_set_4 StdScale,6,0.941,0.898,0.941,0.898,0.448,0.035
+LR feature_set_1 StdScale,7,0.941,0.897,0.941,0.897,0.553,0.036
+LR feature_set_3 StdScale,8,0.941,0.898,0.941,0.898,0.51,0.035
+GB feature_set_5 StdScale,4,0.93,0.888,0.932,0.89,6.352,0.063
+GB feature_set_5 MaxAbs,4,0.93,0.888,0.932,0.89,6.227,0.062
+RF feature_set_5 MaxAbs,4,0.93,0.891,0.936,0.896,6.107,0.336
+RF feature_set_5 StdScale,4,0.93,0.89,0.936,0.896,6.002,0.333
+LR feature_set_3 MaxAbs,8,0.929,0.872,0.929,0.872,1.115,0.035
+LR feature_set_4 MaxAbs,6,0.929,0.872,0.929,0.872,0.907,0.035
+LR feature_set_5 MaxAbs,4,0.929,0.871,0.929,0.871,0.518,0.035
+LR feature_set_1 MaxAbs,7,0.929,0.871,0.929,0.871,1.046,0.036
+LR feature_set_5 StdScale,4,0.928,0.871,0.929,0.871,0.27,0.035
+GB feature_set_2 MaxAbs,7,0.928,0.872,0.93,0.873,6.722,0.06
+GB feature_set_2 StdScale,7,0.928,0.872,0.93,0.873,6.829,0.061
+GB feature_set_1,7,0.928,0.872,0.93,0.873,6.598,0.071
+LR feature_set_1,7,0.928,0.871,0.929,0.871,1.141,0.046
+LR feature_set_2 StdScale,7,0.928,0.871,0.929,0.871,0.347,0.035
+LR feature_set_2 MaxAbs,7,0.928,0.871,0.928,0.871,1.226,0.037
+SGD feature_set_1 MaxAbs,7,0.928,0.869,0.928,0.869,0.2,0.039
+SGD feature_set_3 MaxAbs,8,0.928,0.869,0.928,0.869,0.226,0.04
+SGD feature_set_4 MaxAbs,6,0.928,0.869,0.928,0.869,0.201,0.037
+SGD feature_set_2 StdScale,7,0.928,0.869,0.928,0.868,0.394,0.037
+SGD feature_set_5 MaxAbs,4,0.928,0.868,0.928,0.868,0.173,0.038
+SGD feature_set_1,7,0.928,0.868,0.928,0.868,0.502,0.048
+SGD feature_set_2 MaxAbs,7,0.928,0.868,0.928,0.868,0.223,0.037
+SGD feature_set_5 StdScale,4,0.928,0.868,0.928,0.868,0.291,0.037
+RF feature_set_1,7,0.928,0.872,0.931,0.875,4.964,0.301

@@ -1,0 +1,11 @@
+Contains the 4 modules for deployment.
+1. The base_models contains all the different models
+that were dumped to a pkl file. To test a model,
+just copy and paste it to the same folder as the
+models/unit test depending on which scripy
+you are running. Otherwise, you will need to 
+change the location in the code(not advisable).
+
+2. Misc contains the final dataset used for training
+and a unit test script that tests the chosen model
+for randomly chosen 7 days.

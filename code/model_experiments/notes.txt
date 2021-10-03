@@ -1,0 +1,11 @@
+training script contains all the machine learning experiments.
+
+filter candidate models contains certain models chosen form the training script.
+
+hyper param tuning contains a script that tunes the hyper params of the filtered models.
+
+tuned model selection cross validates the tuned models and makes a selection.
+
+base models creates a joblib file of few selected models.
+
+similar features contains code that checks which features are similar between the 6 datasets.
