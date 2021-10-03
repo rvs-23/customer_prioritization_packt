@@ -41,3 +41,4 @@ Lead / Instructor           : <a href="https://github.com/ngkpg">Neeraj Garg</a>
 ## Live Demo 
 
 Try it yourself @ https://packt-cpm.herokuapp.com/
+Choose dates between May'21 and July'21
