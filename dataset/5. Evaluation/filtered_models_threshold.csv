@@ -1,0 +1,31 @@
+model_name,feature_count,bac_test,rec_test,bac_train,rec_train,time_fit,time_score
+SGD feature_set_1 StdScale,7,0.949,0.915,0.95,0.916,0.33,0.038
+SGD feature_set_3 StdScale,8,0.949,0.914,0.949,0.915,0.412,0.038
+SGD feature_set_4 StdScale,6,0.948,0.914,0.948,0.914,0.329,0.037
+LR feature_set_4 StdScale,6,0.941,0.898,0.941,0.898,0.448,0.035
+LR feature_set_1 StdScale,7,0.941,0.897,0.941,0.897,0.553,0.036
+LR feature_set_3 StdScale,8,0.941,0.898,0.941,0.898,0.51,0.035
+GB feature_set_5 StdScale,4,0.93,0.888,0.932,0.89,6.352,0.063
+GB feature_set_5 MaxAbs,4,0.93,0.888,0.932,0.89,6.227,0.062
+RF feature_set_5 MaxAbs,4,0.93,0.891,0.936,0.896,6.107,0.336
+RF feature_set_5 StdScale,4,0.93,0.89,0.936,0.896,6.002,0.333
+LR feature_set_3 MaxAbs,8,0.929,0.872,0.929,0.872,1.115,0.035
+LR feature_set_4 MaxAbs,6,0.929,0.872,0.929,0.872,0.907,0.035
+LR feature_set_5 MaxAbs,4,0.929,0.871,0.929,0.871,0.518,0.035
+LR feature_set_1 MaxAbs,7,0.929,0.871,0.929,0.871,1.046,0.036
+LR feature_set_5 StdScale,4,0.928,0.871,0.929,0.871,0.27,0.035
+GB feature_set_2 MaxAbs,7,0.928,0.872,0.93,0.873,6.722,0.06
+GB feature_set_2 StdScale,7,0.928,0.872,0.93,0.873,6.829,0.061
+GB feature_set_1,7,0.928,0.872,0.93,0.873,6.598,0.071
+LR feature_set_1,7,0.928,0.871,0.929,0.871,1.141,0.046
+LR feature_set_2 StdScale,7,0.928,0.871,0.929,0.871,0.347,0.035
+LR feature_set_2 MaxAbs,7,0.928,0.871,0.928,0.871,1.226,0.037
+SGD feature_set_1 MaxAbs,7,0.928,0.869,0.928,0.869,0.2,0.039
+SGD feature_set_3 MaxAbs,8,0.928,0.869,0.928,0.869,0.226,0.04
+SGD feature_set_4 MaxAbs,6,0.928,0.869,0.928,0.869,0.201,0.037
+SGD feature_set_2 StdScale,7,0.928,0.869,0.928,0.868,0.394,0.037
+SGD feature_set_5 MaxAbs,4,0.928,0.868,0.928,0.868,0.173,0.038
+SGD feature_set_1,7,0.928,0.868,0.928,0.868,0.502,0.048
+SGD feature_set_2 MaxAbs,7,0.928,0.868,0.928,0.868,0.223,0.037
+SGD feature_set_5 StdScale,4,0.928,0.868,0.928,0.868,0.291,0.037
+RF feature_set_1,7,0.928,0.872,0.931,0.875,4.964,0.301

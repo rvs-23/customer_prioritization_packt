@@ -1,0 +1,12 @@
+model_name,feature_count,bac_test,rec_test,bac_train,rec_train,time_fit,time_score
+SGD feature_set_1 StdScale,7,0.949,0.915,0.95,0.916,0.33,0.038
+SGD feature_set_3 StdScale,8,0.949,0.914,0.949,0.915,0.412,0.038
+SGD feature_set_4 StdScale,6,0.948,0.914,0.948,0.914,0.329,0.037
+SGD feature_set_1 MaxAbs,7,0.928,0.869,0.928,0.869,0.2,0.039
+SGD feature_set_3 MaxAbs,8,0.928,0.869,0.928,0.869,0.226,0.04
+SGD feature_set_4 MaxAbs,6,0.928,0.869,0.928,0.869,0.201,0.037
+SGD feature_set_2 StdScale,7,0.928,0.869,0.928,0.868,0.394,0.037
+SGD feature_set_5 MaxAbs,4,0.928,0.868,0.928,0.868,0.173,0.038
+SGD feature_set_1,7,0.928,0.868,0.928,0.868,0.502,0.048
+SGD feature_set_2 MaxAbs,7,0.928,0.868,0.928,0.868,0.223,0.037
+SGD feature_set_5 StdScale,4,0.928,0.868,0.928,0.868,0.291,0.037

@@ -35,6 +35,7 @@ print('\n"filtered_models" dataset summary:')
 print('\t{} rows x {} columns'.format(df_filtered_models.shape[0], df_filtered_models.shape[1]))
 print(df_filtered_models.to_string())
 
+df_filtered_models.to_csv('filtered_models_threshold.csv', index=False, encoding='utf-8')
 
 print("We can partial fit only using Stochastic Gradient Descent. Choosing SGD models...")
 df_filtered_models_SGD = df_filtered_models.loc[df_filtered_models['model_name'].str.contains('SGD')]
@@ -42,7 +43,7 @@ print('\n"filtered_models_SGD" dataset summary:')
 print('\t{} rows x {} columns'.format(df_filtered_models_SGD.shape[0], df_filtered_models_SGD.shape[1]))
 print(df_filtered_models_SGD.to_string())
 
-
+df_filtered_models_SGD.to_csv('filtered_models_threshold_SGD.csv', encoding='utf-8', index=False)
 
 ###############################################################################
 

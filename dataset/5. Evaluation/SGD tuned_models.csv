@@ -1,0 +1,13 @@
+model_name,feature_count,Balanced_Accuracy_test,Recall_test,Balanced_Accuracy_train,Recall_train,Fit_time,Score_time
+SDC1 feature_set_1 std scaled tuned,7,0.979,0.98,0.98,0.98,5.232,1.266
+SDC1 feature_set_3 std scaled tuned,8,0.976,0.977,0.976,0.977,3.122,0.109
+SDC1 feature_set_4 std scaled tuned,6,0.968,0.957,0.969,0.959,2.232,0.062
+SDC2 feature_set_3 std scaled tuned,8,0.956,0.93,0.955,0.929,2.796,0.094
+SDC2 feature_set_4 std scaled tuned,6,0.956,0.93,0.955,0.928,2.702,0.078
+SDC2 feature_set_1 std scaled tuned,7,0.955,0.927,0.956,0.927,2.749,0.109
+SDC3 feature_set_4 std scaled tuned,6,0.929,0.874,0.929,0.874,0.625,0.134
+SDC3 feature_set_5 std scaled tuned,4,0.929,0.874,0.929,0.874,0.578,0.094
+SDC3 feature_set_3 std scaled tuned,8,0.929,0.873,0.929,0.873,0.687,0.062
+SDC1 feature_set_5 std scaled tuned,4,0.929,0.872,0.928,0.871,1.734,0.078
+SDC3 feature_set_1 std scaled tuned,7,0.928,0.872,0.928,0.872,0.828,0.062
+SDC2 feature_set_5 std scaled tuned,4,0.928,0.871,0.928,0.872,2.499,0.109

@@ -21,15 +21,15 @@ y = df_test['conversion_status']
 
 # Reading the tuned parameters corresponding to each model
 base_path = os.path.dirname(os.path.realpath(__file__))
-in_file_name1 = "Logistic_Tuned_Hyperparameters.csv"
+# in_file_name1 = "Logistic_Tuned_Hyperparameters.csv"
 in_file_name2 = "SGD_Tuned_Hyperparameters.csv"
-print('\n{}\tReading dataset: {} ...'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), in_file_name1))
+# print('\n{}\tReading dataset: {} ...'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), in_file_name1))
 print('\n{}\tReading dataset: {} ...'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), in_file_name2))
-df_logit_params = pd.read_csv(os.path.join(base_path, in_file_name1))
+# df_logit_params = pd.read_csv(os.path.join(base_path, in_file_name1))
 df_sgd_params = pd.read_csv(os.path.join(base_path, in_file_name2))
 
-print("The best parameters for LOGISTIC REGRESSION models are: -")
-print(df_logit_params.to_string())
+# print("The best parameters for LOGISTIC REGRESSION models are: -")
+# print(df_logit_params.to_string())
 print("\nThe best parameters for STOCHASTIC GRADIENT DESCENT models are: -")
 print(df_sgd_params.to_string())
 
@@ -147,7 +147,7 @@ df_final_tuned = fit_algorithm("SDC3 feature_set_5 std scaled tuned", sgd_model_
 
 print(df_final_tuned.to_string())
 print("Creating csv ...")
-df_final_tuned.to_csv('LR SGD tuned_models.csv', encoding='utf-8', index=False)
+df_final_tuned.to_csv('SGD tuned_models.csv', encoding='utf-8', index=False)
 print("Done")
 
 ###############################################################################
